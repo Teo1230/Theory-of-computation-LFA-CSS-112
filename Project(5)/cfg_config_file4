@@ -1,0 +1,20 @@
+Variables:
+	S, S
+	X
+	Y
+	Z
+	M
+	N
+End
+Terminals:
+	a
+	b
+End
+Rules:
+	S -> XY
+	X -> a
+	Y -> Z | b
+	Z -> M
+	M -> N
+	N -> a
+End

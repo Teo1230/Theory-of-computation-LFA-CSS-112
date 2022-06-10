@@ -1,0 +1,18 @@
+Variables:
+	S, S
+	A
+	B
+	C
+	E
+End
+Terminals:
+	a
+	c
+	e
+End
+Rules:
+	S -> AC | B
+	A -> a
+	C -> c | BC
+	E -> aA | e
+End

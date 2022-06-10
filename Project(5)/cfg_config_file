@@ -1,0 +1,16 @@
+Variables:
+	A, S
+	B
+End
+// aici este un comentariu
+Terminals:
+	0
+	1
+	#
+End
+Rules:
+	// aici este un alt comentariu
+	A -> 0A1 
+	A -> B
+	B -> #
+End
